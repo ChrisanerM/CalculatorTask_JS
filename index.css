@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    max-width: 300px;
+    padding-bottom: 5px;
+    margin-bottom: 150px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+    grid-template-rows: repeat(6, 1fr);
+    width: 45vw;
+    margin: 5rem auto;
+    background-color: grey;
+    border-width: 3px;
+}
+
+.container input#results {
+    grid-column: 1 / -1;
+    padding: 18px;
+    color:white;
+    border-color:black;
+    border-width: 2px;
+    border-radius: 3px;
+}
+#results{
+    text-align: right;
+}
+
+.container #btnEquals {
+    background-color: orange;
+    border-color: orange;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-column: 3 / -1;
+
+}
+#btnEquals:hover{
+    background-color: white;   
+}
+
+.container #btnAC{
+    background-color: orange;
+    border-radius: 5px;
+    grid-column: 3 / 1;
+    border-color: orange;
+    border-width: 1px;
+}
+#btnAC:hover{
+background-color: white;    
+}
+
+#btnDel{
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnDel:hover{
+    background-color: grey;
+}
+
+#btnDiv {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnDiv:hover{
+    background-color: grey;
+}
+#btnOne{
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnOne:hover{
+    background-color: grey;
+}
+#btnTwo {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+} 
+#btnTwo:hover{
+    background-color: grey;
+}
+
+#btnThree {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnThree:hover{
+    background-color: grey;
+}
+#btnMul{
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+} 
+#btnMul:hover{
+    background-color: grey;
+}
+#btnFour {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnFour:hover{
+    background-color: grey;
+}
+#btnFive {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+} 
+#btnFive:hover{
+    background-color: grey;
+}
+#btnSix {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnSix:hover{
+    background-color: grey;
+}
+#btnAdd {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnAdd:hover{
+    background-color: grey;
+}
+#btnSeven {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnSeven:hover{
+    background-color: grey;
+}
+#btnEight {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnEight:hover{
+    background-color: grey;
+}
+#btnNine {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnNine:hover{
+    background-color: grey;
+}
+#btnSub {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnSub:hover{
+    background-color: grey;
+}
+#btnDecimal {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnDecimal:hover{
+    background-color: grey;
+}
+#btnZero {
+    background-color: lightgray;
+    color: aliceblue;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius:5px;
+}
+#btnZero:hover{
+    background-color: grey;
+}
+
