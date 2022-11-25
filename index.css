@@ -14,8 +14,9 @@ body{
     grid-template-rows: repeat(6, 1fr);
     width: 45vw;
     margin: 5rem auto;
-    background-color: grey;
+    background-color: black;
     border-width: 3px;
+    border-radius: 5px;
 }
 
 .container input#results {
@@ -26,9 +27,31 @@ body{
     border-width: 2px;
     border-radius: 3px;
 }
-#results{
-    text-align: right;
+.output{
+    grid-column: 1/ -1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    color: white;
 }
+
+.first-display {
+color: white;
+}
+
+second-display{
+color: white;
+
+}
+
+/* #results{
+    text-align: right;
+    color: white;  
+} */
 
 .container #btnEquals {
     background-color: orange;
@@ -53,9 +76,9 @@ body{
 background-color: white;    
 }
 
-#btnDel{
+#btn Del{
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -66,7 +89,7 @@ background-color: white;
 
 #btnDiv {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -76,7 +99,7 @@ background-color: white;
 }
 #btnOne{
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -86,7 +109,7 @@ background-color: white;
 }
 #btnTwo {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -97,7 +120,7 @@ background-color: white;
 
 #btnThree {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -107,7 +130,7 @@ background-color: white;
 }
 #btnMul{
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -117,7 +140,7 @@ background-color: white;
 }
 #btnFour {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -127,7 +150,7 @@ background-color: white;
 }
 #btnFive {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -137,7 +160,7 @@ background-color: white;
 }
 #btnSix {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -147,7 +170,7 @@ background-color: white;
 }
 #btnAdd {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -157,7 +180,7 @@ background-color: white;
 }
 #btnSeven {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -167,7 +190,7 @@ background-color: white;
 }
 #btnEight {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -177,7 +200,7 @@ background-color: white;
 }
 #btnNine {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -187,7 +210,7 @@ background-color: white;
 }
 #btnSub {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -197,7 +220,7 @@ background-color: white;
 }
 #btnDecimal {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
@@ -207,7 +230,7 @@ background-color: white;
 }
 #btnZero {
     background-color: lightgray;
-    color: aliceblue;
+    color: black;
     border-color: lightgrey;
     border-width: 1px;
     border-radius:5px;
