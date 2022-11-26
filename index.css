@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color:seagreen;
 }
 
 .container {
@@ -12,22 +13,13 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 3px;
     grid-template-rows: repeat(6, 1fr);
-    width: 60vw;
-    margin: 5rem auto;
+    width: 195px;
+    margin: 8rem auto;
     background-color: black;
     border-width: 3px;
     border-radius: 5px;
 }
 
-
-.container input#results {
-    grid-column: 1 / -1;
-    padding: 18px;
-    color:white;
-    border-color:black;
-    border-width: 2px;
-    border-radius: 3px;
-}
 .output{
     grid-column: 1/ -1;
     display: flex;
@@ -43,7 +35,7 @@ body{
 #dsply-box {
 color: rgb(0, 0, 0);
 width: 95%;
-padding: 3px;
+padding: 4px;
 margin: auto;
 border-radius: 5px;
 }
