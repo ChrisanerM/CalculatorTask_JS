@@ -12,12 +12,13 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 3px;
     grid-template-rows: repeat(6, 1fr);
-    width: 45vw;
+    width: 60vw;
     margin: 5rem auto;
     background-color: black;
     border-width: 3px;
     border-radius: 5px;
 }
+
 
 .container input#results {
     grid-column: 1 / -1;
@@ -33,14 +34,18 @@ body{
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: column;
-    padding:10px;
+    padding:5px;
     word-wrap: break-word;
     word-break: break-all;
     color: white;
 }
 
-.first-display {
-color: white;
+#dsply-box {
+color: rgb(0, 0, 0);
+width: 95%;
+padding: 3px;
+margin: auto;
+border-radius: 5px;
 }
 
 second-display{
@@ -53,7 +58,7 @@ color: white;
     color: white;  
 } */
 
-.container #btnEquals {
+.container #btnEqualsTo {
     background-color: orange;
     border-color: orange;
     border-width: 1px;
@@ -76,8 +81,7 @@ color: white;
 background-color: white;    
 }
 
-#btn Del{
-    background-color: lightgray;
+#btn Del{ 
     color: black;
     border-color: lightgrey;
     border-width: 1px;

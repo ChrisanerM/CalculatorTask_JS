@@ -11,28 +11,26 @@
 
       <div class="container">
         <div class="output">
-          <div class="first-display">1222</div>
-          <div class="second-display">1222</div>
+        <input id="dsply-box" type="text" placeholder="0" >
         </div>
-        <!-- <input type="text" placeholder="000" id="results"></div> -->
-        <button class="data-operations" id="btnAC" >AC</button>
-        <button class="data-operations" id="btnDel">DEL</button>
-        <button class="data-operations" id="btnDiv">/</button>
-        <button class="data-numbers" id="btnOne">1</button>
-        <button class="data-numbers" id="btnTwo">2</button>
-        <button class="data-numbers" id="btnThree">3</button>
-        <button class="data-operations" id="btnMul">x</button>
-        <button class="data-numbers" id="btnFour">4</button>
-        <button class="data-numbers" id="btnFive">5</button>
-        <button class="data-numbers" id="btnSix">6</button>
-        <button class="data-operations" id="btnAdd">+</button>
-        <button class="data-numbers" id="btnSeven">7</button>
-        <button class="data-numbers" id="btnEight">8</button>
-        <button class="data-numbers" id="btnNine">9</button>
-        <button class="data-operations" id="btnSub">-</button>
-        <button class="data-operations" id="btnDecimal">.</button>
-        <button class="data-numbers" id="btnZero">0</button>
-        <button class="data-operations" id="btnEquals">=</button>
+        <button class="data-clear" id="btnAC" onclick="clr()">AC</button>
+        <button class="data-delete" id="btnDel" onclick="del('')">DEL</button>
+        <button class="data-operations" id="btnDiv" onclick="operators('/')">/</button>
+        <button class="data-numbers" id="btnOne" onclick="calculation('1')">1</button>
+        <button class="data-numbers" id="btnTwo" onclick="calculation('2')">2</button>
+        <button class="data-numbers" id="btnThree" onclick="calculation('3')">3</button>
+        <button class="data-operations" id="btnMul" onclick="operators('*')"">x</button>
+        <button class="data-numbers" id="btnFour" onclick="calculation('4')">4</button>
+        <button class="data-numbers" id="btnFive" onclick="calculation('5')">5</button>
+        <button class="data-numbers" id="btnSix" onclick="calculation('6')">6</button>
+        <button class="data-operations" id="btnAdd" onclick="operators('+')"">+</button>
+        <button class="data-numbers" id="btnSeven" onclick="calculation('7')">7</button>
+        <button class="data-numbers" id="btnEight" onclick="calculation('8')">8</button>
+        <button class="data-numbers" id="btnNine" onclick="calculation('9')">9</button>
+        <button class="data-operations" id="btnSub" onclick="operators('-')">-</button>
+        <button class="data-operations" onclick="decimal('.')">.</button>
+        <button class="data-numbers" id="btnZero" onclick="calculation('0')">0</button>
+        <button class="data-equalsTo" id="btnEqualsTo" onclick="equal()">=</button>
     
 </div>
     <script src="index.js"></script>
