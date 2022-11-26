@@ -34,7 +34,7 @@ body{
 
 #dsply-box {
 color: rgb(0, 0, 0);
-width: 95%;
+width: 94%;
 padding: 4px;
 margin: auto;
 border-radius: 5px;
@@ -44,11 +44,6 @@ second-display{
 color: white;
 
 }
-
-/* #results{
-    text-align: right;
-    color: white;  
-} */
 
 .container #btnEqualsTo {
     background-color: orange;
@@ -73,7 +68,7 @@ color: white;
 background-color: white;    
 }
 
-#btn Del{ 
+#btnDel{ 
     color: black;
     border-color: lightgrey;
     border-width: 1px;
@@ -214,8 +209,7 @@ background-color: white;
 #btnSub:hover{
     background-color: grey;
 }
-#btnDecimal {
-    background-color: lightgray;
+#deci {
     color: black;
     border-color: lightgrey;
     border-width: 1px;
